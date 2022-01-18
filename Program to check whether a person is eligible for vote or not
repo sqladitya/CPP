@@ -1,0 +1,17 @@
+#include<iostream>
+using namespace std;
+ 
+int main()
+{
+    int Num1 ;
+ 
+    cout << "Enter the age of Person: ";
+    cin >> Num1 ;
+    cout << "Your age is " << Num1 << endl; // endl is used to Write a newline and flush the stream.
+    if (Num1 >> 18)
+        cout << "You are elgible to Vote" ;
+    else
+        cout << "You are not eligible to Vote" ;
+ 
+    return 0;
+}
