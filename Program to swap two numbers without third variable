@@ -1,0 +1,12 @@
+#include <iostream>  
+using namespace std;  
+int main()  
+{  
+int x=25, y=89;      
+cout<<"Before swap a= "<<x<<" and b= "<<y<<endl;      
+x=x*y;  
+y=x/y;
+x=x/y;
+cout<<"After swap a= "<<x<<" and  b= "<<y<<endl;      
+return 0;  
+}  
